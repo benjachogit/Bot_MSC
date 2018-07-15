@@ -23,7 +23,7 @@ namespace BotApplication.Dialogs
 
         private async Task MessageReceivedAsync(IDialogContext context, IAwaitable<object> result)
         {
-            PromptDialog.Choice(context, this.OnlanguageSelected, new List<string>() { "ไทย", "English" }, $"Please select Language", "Have no your choice", 3);
+            PromptDialog.Choice(context, this.OnlanguageSelected, new List<string>() { "ไทย", "English" }, $"Please Select language", "Have no your choice", 3);
 
         }
 
