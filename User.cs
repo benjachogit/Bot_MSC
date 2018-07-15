@@ -65,14 +65,14 @@ namespace BotApplication
         public User()
         {
             //Massage for translate
-            this.MassegeWelcom = "Welcome to Metro Systems MA Service, Do you have an account with us?";
-            this.MassegeUsername = "Please enter your username";
-            this.MassegePassword = "Plese input your password";
-            this.MassegeIncidents = "Your current number of incidents available";
+            this.MassegeWelcom = "Do you have an account with us?";
+            this.MassegeUsername = "Please enter your username.";
+            this.MassegePassword = "Please input your password.";
+            this.MassegeIncidents = "Your current number of incidents available.";
             this.MassegeIncidents2 = "Do You want to open ticket?";
-            this.MassegeProduct = "Please select the Product";
-            this.MassegePriority = "Please select the priority";
-            this.MassegeIssueFrom = "Please select issue form";
+            this.MassegeProduct = "Please select the Product.";
+            this.MassegePriority = "Please select the priority.";
+            this.MassegeIssueFrom = "Please select issue form.";
             this.MassageRating = "Please rate our service (1-5)";
             this.MassegeThankyou = "Thank you for using our services. We hope to service you again in the future.";
 

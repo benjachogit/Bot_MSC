@@ -30,7 +30,7 @@ namespace BotApplication.Dialogs
         public async Task StartAsync(IDialogContext context)
         {
 
-            PromptDialog.Choice(context, this.OnUsernameSelect, yesNoOptions, "ยินดีต้อนรับสู่ Metro Systems MA Service ไม่ทราบว่าท่านมีบัญชีผู้ใช้กับเราหรือไม่?", "เลือกไม่ถูกต้อง", 3);
+            PromptDialog.Choice(context, this.OnUsernameSelect, yesNoOptions, "ไม่ทราบว่าท่านมีบัญชีผู้ใช้กับเราหรือไม่?", "เลือกไม่ถูกต้อง", 3);
 
 
         }
